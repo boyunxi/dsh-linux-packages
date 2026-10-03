@@ -1,0 +1,6 @@
+# Large package bodies live as GitHub Release assets, never in git history.
+# Git stores them only while creating the release, then they go.
+*.deb
+*.pkg.tar.zst
+*.rpm
+*.AppImage
